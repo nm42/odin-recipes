@@ -1,5 +1,13 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .main {
