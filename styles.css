@@ -1,16 +1,75 @@
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900;
-    color: red;
-    text-align: center;
+    color:aquamarine;
     text-decoration: underline;
+    background-color: coral;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
 }
-
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    font-size:18px; 
+    font-weight: bold; 
+    background-color: lightgreen; 
+    color:gray
+}
+
+.center-paragraph {
+    text-align: center;
+}
+
+.special-ol {
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+
+.special-ol li::before {
+    content: counter(my-counter) " ";
+    font-weight: bold;
+    counter-increment: my-counter;
+}
+
+.special-ol li {
+    margin-bottom: 10px;
+}
+
+.center-image {
+    display:block;
+    margin:auto;
 }
 
 .main {
     font-size: 20px;
     font-weight: bold;
+    margin-left: 5%;
 }
+
+.ingredients {
+    font-size: 16px;
+    background: rgb(254, 203, 108);
+    display: inline-block;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.recipe {
+    font-size: 16px;
+    background-color: cornsilk;
+    border: 4px rgb(125, 125, 182);
+    border-style: dashed;
+    display:inline-block;
+    Width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 5px 0px 5px 30%;
+}
+
