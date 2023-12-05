@@ -37,19 +37,20 @@ button {
     text-align: center;
 }
 
-.special-ol {
-    list-style-type: none;
-    counter-reset: my-counter;
+ol {
+    margin-bottom:10px
 }
 
-.special-ol li::before {
-    content: counter(my-counter) " ";
-    font-weight: bold;
-    counter-increment: my-counter;
+ol li::marker {
+    font-weight:bold;
 }
 
-.special-ol li {
-    margin-bottom: 10px;
+li {
+    margin-bottom: 15px;
+}
+
+li:last-child {
+    margin-bottom:0px;
 }
 
 .center-image {
@@ -85,8 +86,8 @@ button {
     Width: 400px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin: 5px auto;
     font-size: 16px;
     background-color: cornsilk;
