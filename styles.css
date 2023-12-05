@@ -9,6 +9,7 @@ h1 {
     color:rgb(0, 37, 97);
     text-decoration: underline;
     background-color: coral;
+    border: 5px inset maroon;
 }
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -63,14 +64,14 @@ button {
 
 .ingredients {
     display: block;
-    Width: 300px;
+    Width: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 40px;
     padding-left: 40px;
     margin: 10px auto;
     font-size: 16px;
-    background: rgb(254, 203, 108);
+    background: rgb(255, 222, 161);
     border: 5px ridge rgb(107, 75, 119);
 }
 
@@ -80,7 +81,7 @@ button {
 
 .recipe {
     display:block;
-    Width: 300px;
+    Width: 400px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 10px;
