@@ -8,8 +8,8 @@ h1 {
     font-weight: 900;
     color:rgb(0, 37, 97);
     text-decoration: underline;
-    background-color: coral;
-    border: 5px inset maroon;
+    background:radial-gradient(circle, rgb(249, 232, 232) 20%, pink 40%, rgb(254, 214, 139) 60%, rgb(255, 255, 37) 80%, rgb(241, 237, 187) 100%);
+    border: 5px solid maroon;
 }
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -20,9 +20,8 @@ h2 {
     width:30%;
     margin: 40px auto;
     margin-bottom: 10px;
-    background-color:khaki;
+    background:radial-gradient(ellipse at 30% 30%, rgb(251, 213, 220), rgb(253, 244, 214));
     border: 3px rgb(192, 192, 192) dotted;
-
 }
 
 button {
