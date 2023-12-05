@@ -17,7 +17,8 @@ body {
 h2 {
     display:block;
     width:30%;
-    margin: 10px auto;
+    margin: 40px auto;
+    margin-bottom: 10px;
     background-color:khaki;
     border: 3px rgb(192, 192, 192) dotted;
 
@@ -61,9 +62,16 @@ button {
 }
 
 .ingredients {
+    display: block;
+    Width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 10px auto;
     font-size: 16px;
     background: rgb(254, 203, 108);
-    display: inline-block;
+    border: 5px ridge rgb(107, 75, 119);
 }
 
 .no-bullet {
@@ -71,16 +79,16 @@ button {
 }
 
 .recipe {
-    font-size: 16px;
-    background-color: cornsilk;
-    border: 4px rgb(125, 125, 182);
-    border-style: dashed;
-    display:inline-block;
+    display:block;
     Width: 300px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 10px;
     padding-left: 10px;
-    margin: 5px 0 5px 30%;
+    margin: 5px auto;
+    font-size: 16px;
+    background-color: cornsilk;
+    border: 4px rgb(125, 125, 182);
+    border-style: ridge;
 }
 
