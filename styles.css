@@ -94,3 +94,8 @@ button {
     border-style: ridge;
 }
 
+.stop {
+    border: none;
+    background: radial-gradient(ellipse,  rgba(255, 0, 0, 0.381) 10%,rgba(255, 255, 255, 0) 100%);
+    padding:10px;
+}
