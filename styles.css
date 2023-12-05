@@ -46,7 +46,8 @@ ol li::marker {
 }
 
 li {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 li:last-child {
