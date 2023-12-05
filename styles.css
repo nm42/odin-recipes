@@ -21,6 +21,7 @@ h2 {
     width:30%;
     margin: 40px auto;
     margin-bottom: 10px;
+    text-align: center;
     background:radial-gradient(ellipse at 30% 30%, rgb(251, 213, 220), rgb(253, 244, 214));
     border: 3px rgb(192, 192, 192) dotted;
 }
